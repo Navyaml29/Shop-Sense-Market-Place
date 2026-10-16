@@ -16,12 +16,12 @@ if not st.session_state.login:
     password = st.text_input("Password", type="password")
 
     st.subheader("CAPTCHA")
-    st.write("What is 3 + 4?")
+    st.write("What is your favorite color?")
     answer = st.text_input("Enter CAPTCHA answer")
 
     if st.button("Login"):
-        if username == "admin" and password == "admin123":
-            if answer == "7":
+        if username == "Navya" and password == "Shopsense@29":
+            if answer == "Grey":
                 st.session_state.login = True
                 st.rerun()
             else:
