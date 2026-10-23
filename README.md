@@ -1,4 +1,4 @@
-# ShopSense -- Multi-Vendor E-Commerce Analytics Platform
+# ShopSense - Multi-Vendor E-Commerce Analytics Platform
 ShopSense is a colorful web application prototype built with Python, Streamlit, and Pandas. It demonstrates a multi-vendor marketplace where administrators manage vendors, products, inventory, and transaction reports; vendors review sample store data; and customers browse products.
 
 # Project status: Milestone 1 prototype. The application uses generated demo data and Streamlit session state. It is not connected to a permanent database, and checkout/payment functionality is not implemented.
